@@ -70,7 +70,3 @@ export function buildDeviceSessions(
 
 	return Array.from(deviceSessionById.values()).flatMap((item) => item);
 }
-
-//import {events} from './fixtures.js'
-
-//console.log(sortEventByDeviceIdAndTimestamp(events));
